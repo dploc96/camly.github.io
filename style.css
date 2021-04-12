@@ -1,0 +1,176 @@
+:root {
+  --size-icon: 50px;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 31px;
+}
+
+
+.header__logo {
+  width: 161px;
+  height: 82px;
+  background-color: aqua;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu li {
+  padding: 0 30px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header_menu:first-child {
+  border-right: 1px solid black;
+}
+
+/* Partners */
+#partners {
+  text-align: center;
+}
+
+#partners h3 {
+  color: #334A9F;
+  font-size: 40px;
+}
+
+#partners span {
+  color: #B99239;
+}
+
+#partners p {
+  color: #343434;
+  font-size: 20px;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color: #F9FAFC;
+}
+
+.partners__item div {
+  width: 214px;
+  height: 141px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+/* Footer */
+#footer {
+  background: #05195B;
+  color: #ffffff;
+}
+
+.footer__top {
+  padding: 35px;
+}
+
+.footer__icon {
+  display: flex;
+}
+
+.footer__icon li {
+  padding: 10px;
+}
+
+.footer__icon li a {
+  color: inherit;
+}
+
+.footer__icon--radius {
+  width: var(--size-icon);
+  height: var(--size-icon);
+
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: var(--size-icon);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+.footer__top {
+  border-bottom: 1px solid aqua;
+}
+
+.footer-content__item {
+  padding-top: 50px;
+}
+
+.footer-content__item span {
+  display: inline-block;
+  margin-bottom: 23px;
+  text-align: left;
+  font: normal normal bold 22px/20px Roboto;
+  
+}
+
+.footer-content__item ul {
+  padding-left: 10px;
+}
+
+.content-item__app {
+  display: flex;
+  align-items: center;
+
+  padding: 21px 17px;
+  border: 1px solid #1C54B1;
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.content-item__app img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.content-item__app + .content-item__app {
+  margin-top: 30px;
+}
+
+.content-item__app li {
+  padding: 10px;
+}
+
+.footer__copyright {
+  background: #011450;
+  color: #ffffff;
+
+  text-align: center;
+  line-height: 81px;
+}
