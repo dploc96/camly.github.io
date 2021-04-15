@@ -1,0 +1,23 @@
+#partners {
+  text-align: center;
+  background-color: #F9FAFC;
+}
+
+#partners p {
+  color: #343434;
+  font-size: 20px;
+}
+
+.partners__item {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: #F9FAFC;
+}
+
+.partners__item div {
+  width: 214px;
+  height: 141px;
+  margin: 10px;
+  background-color: #fff;
+}

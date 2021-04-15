@@ -1,0 +1,43 @@
+:root {
+  --size-icon: 50px;
+}
+
+html {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.section {
+  padding: 60px 260px;
+}
+
+.title {
+  color: #334A9F;
+}
+
+.title-span {
+  color: #B99239;
+}
+
+body {
+  width: 1920px;
+}

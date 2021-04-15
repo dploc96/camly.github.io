@@ -1,0 +1,148 @@
+#footer {
+  padding-bottom: 0;
+  background: #05195B;
+  color: #ffffff;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #1C54B1;
+}
+
+.footer-top__icon {
+  display: flex;
+}
+
+.footer-top__icon li + li {
+  padding-left: 10px;
+}
+
+.footer-top__icon li a {
+  color: inherit;
+}
+  
+.footer-top__icon--radius {
+  width: var(--size-icon);
+  height: var(--size-icon);
+
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: var(--size-icon);
+}
+
+.footer-top__logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-top__logo img + img {
+  margin-left: 20px;
+}
+  
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content__logo {
+  width: 304px;
+  height: 102px;
+  align-self: center;
+}
+
+.footer-content__list {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  flex: auto;
+  margin: 0 54px;
+}
+  
+.footer-content__item {
+  width: calc(33% - 26px);
+  padding-top: 50px;
+}
+  
+.footer-content__item span {
+  display: inline-block;
+  margin-bottom: 23px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+}
+
+.footer-content__item ul {
+  padding-left: 10px;
+}
+
+.footer-content__item > ul > li {
+  height: 43px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer-content__app {
+  padding-top: 50px;
+}
+
+.footer-content__app > span {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.content-item__app {
+  display: flex;
+  align-items: center;
+
+  width: 298px;
+  height: 84px;
+
+  padding: 21px 17px;
+  border: 1px solid #1C54B1;
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.content-item__app > p {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.content-item__app > p > span {
+  font-size: 17px;
+}
+
+.content-item__app img {
+  width: 38px;
+  height: 48px;
+  margin-right: 22px;
+}
+
+.content-item__app + .content-item__app {
+  margin-top: 30px;
+}
+
+.content-item__app li {
+  padding: 10px;
+}
+
+.footer__copyright {
+  margin-left: -260px;
+  margin-right: -260px;
+  background: #011450;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 81px;
+  text-align: center;
+}
