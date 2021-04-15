@@ -21,12 +21,34 @@
 
   padding: 0 8px;
   border-radius: 3px;
+  margin-bottom: 10px;
 
   background-color: #E2AD00;
   color: #ffffff;
 
   font-weight: 700;
 }
+
+.home-left__list {
+  height: 683px;
+  overflow: auto;
+}
+
+.home-left__list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.home-left__list::-webkit-scrollbar-thumb {
+  background: #105FBC; 
+  border-radius: 10px;
+}
+
+.home-left__list::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #050C13;
+  opacity: 0.43;
+}
+
 
 .left-title__state {
   font-size: 21px;
@@ -41,7 +63,7 @@
 
   width: 339px;
   height: 221px;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
 .left-list__item img {

@@ -21,12 +21,22 @@
   height: 682px;
   border: 1px solid #E3E3E3;
   background-color: #fff;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.service-list__left:hover {
+  transform: scale(1.05);
 }
 
 .service-list__item {
   position: relative;
   width: 332px;
   height: 327px;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.service-list__item:hover {
+  transform: scale(1.05);
 }
 
 .service-list__span {

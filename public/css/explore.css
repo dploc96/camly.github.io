@@ -23,6 +23,11 @@
   position: relative;
   width: 684px;
   height: 371px;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.explore__item:hover {
+  transform: scale(1.05);
 }
 
 .explore-item__right {

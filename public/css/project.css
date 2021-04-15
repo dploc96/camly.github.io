@@ -33,6 +33,12 @@
   width: 24%;
   background-color: #fff;
   border: 1px solid #EBEBEB;
+
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.project-list__item:hover {
+  transform: scale(1.05);
 }
 
 .list-item__content {

@@ -46,6 +46,11 @@
 .news__item {
   border: 1px solid #EBEBEB;
   background-color: #FFFFFF;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.news__item:hover {
+  transform: scale(1.05);
 }
 
 .news__item div {
