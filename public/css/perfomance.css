@@ -17,13 +17,11 @@
   font-weight: 300;
 }
 
-#perfomance > span {
+#perfomance > a {
   display: block;
   margin-bottom: 23px;
   color: #C99C34;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: medium;
+  font: italic normal 500 20px/20px 'Roboto';
 }
 
 .perfomance__list {

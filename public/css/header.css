@@ -5,7 +5,7 @@
   padding: 6px 31px;
 }
   
-.header__logo {
+.header__logo > img {
   width: 161px;
   height: 82px;
 }
@@ -63,20 +63,27 @@
   cursor: pointer;
 }
 
+.header__login:hover {
+  opacity: .8;
+}
+
 .header__login i {
   font-size: 16px;
 }
 
 .header__language {
+  height: 24px;
   font-size: 18px;
   cursor: pointer;
   color: #515151;
 }
 
-.header__language i {
-  font-size: 14px;
+.header__language > img {
+  display: inline;
+  height: 24px;
 }
 
-.header__language i:last-child {
+.header__language > i{
   font-size: 5px;
+  line-height: 24px;
 }
