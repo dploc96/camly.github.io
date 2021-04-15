@@ -120,7 +120,7 @@
   position: relative;
   flex: auto;
   padding-bottom: 10px;
-  background: url('/imgs/5.png') no-repeat center center / cover;
+  background: url('../imgs/5.png') no-repeat center center / cover;
 }
 
 .home-right__top {
