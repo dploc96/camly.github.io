@@ -21,23 +21,58 @@
   display: flex;
 }
 
-.footer-top__icon li + li {
-  padding-left: 10px;
-}
+.footer-top__icon > li > a {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  margin-right: 10px;
 
-.footer-top__icon li a {
   color: inherit;
+  line-height: 50px;
+  text-align: center;
 }
   
-.footer-top__icon--radius {
-  width: var(--size-icon);
-  height: var(--size-icon);
+.footer-top__icon > li > a::before,
+.footer-top__icon > li > a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
 
-  border: 1px solid #ffffff;
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
 
-  text-align: center;
-  line-height: var(--size-icon);
+.footer-top__icon > li > a::before {
+  border: 1px solid transparent;
+}
+
+.footer-top__icon > li > a:after {
+  border: 0 solid transparent;
+}
+
+.footer-top__icon > li a:hover {
+  border: none;
+}
+
+.footer-top__icon > li > a:hover::before {
+  border-top-color: #fff;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s;
+}
+
+.footer-top__icon > li > a:hover::after {
+  border-top: 1px solid #fff;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  transform: rotate(270deg);
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
 }
 
 .footer-top__logo {
@@ -45,7 +80,7 @@
   align-items: center;
 }
 
-.footer-top__logo img + img {
+.footer-top__logo > img {
   margin-left: 20px;
 }
   
@@ -105,6 +140,8 @@
 }
 
 .content-item__app {
+  position: relative;
+
   display: flex;
   align-items: center;
 
@@ -116,6 +153,33 @@
   border-radius: 3px;
 
   cursor: pointer;
+}
+
+.content-item__app::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.content-item__app::before {
+  border: 1px solid transparent;
+}
+
+.content-item__app:hover {
+  border: none;
+}
+
+.content-item__app:hover::before {
+  border-top-color: #1C54B1;
+  border-right-color: #1C54B1;
+  border-bottom-color: #1C54B1;
+  border-left-color: #1C54B1;
+  transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s, border-left-color 0.15s linear 0.30s;
 }
 
 .content-item__app > p {

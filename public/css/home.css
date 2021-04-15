@@ -127,7 +127,7 @@
 }
 
 .list-item__cost {
-  color: #F9CB2D;
+  color: #f9cb2d;
   font-weight: bold;
 }
 
@@ -249,7 +249,11 @@
   line-height: 55px;
   font-size: 22px;
   font-weight: 400;
-  opacity: 0.49;
+  /* opacity: 0.49; */
+}
+
+.home-right__bottom > p {
+  opacity: 1;
 }
 
 
