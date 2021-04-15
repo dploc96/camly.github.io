@@ -120,7 +120,7 @@
   position: relative;
   flex: auto;
   padding-bottom: 10px;
-  background: url('../imgs/5.png') no-repeat center center / cover;
+  background: url('../imgs/5.png') no-repeat center right / cover;
 }
 
 .home-right__top {
@@ -217,6 +217,7 @@
   color: #FFFFFF;
   text-align: center;
   line-height: 55px;
+  font-size: 22px;
   font-weight: 400;
   opacity: 0.49;
 }
