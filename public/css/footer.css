@@ -228,3 +228,11 @@
   font-size: 31px;
   line-height: 68px;
 }
+
+.footer__chat::before,
+.footer__chat::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+}
