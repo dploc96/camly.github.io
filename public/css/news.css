@@ -77,9 +77,10 @@
   color: #324AA0;
   font-size: 20px;
   font-weight: 900;
+  line-height: 23px;
 }
 
-.news-item__title p {
+.news__item p {
   color: #1F1F1F;
   
   font-size: 16px;

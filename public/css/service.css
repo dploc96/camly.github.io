@@ -51,18 +51,33 @@
   line-height: 53px;
 }
 
+.list-left__img {
+  position: relative;
+}
+
+.list-left__img > span {
+  position: absolute;
+  bottom: 13px;
+  left: 39px;
+  color: #fff;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 59px;
+}
+
 .list-left__content {
   padding: 17px 39px;
 }
 
-.list-left__content span {
+.list-left__content > span {
   display: inline-block;
   margin-bottom: 22px;
   color: #262626;
+  font-size: 25px;
   font-weight: 700;
 }
 
-.list-left__content p {
+.list-left__content > p {
   width: 534px;
   font-size: 20px;
   font-weight: 300;
