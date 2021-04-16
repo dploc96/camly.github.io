@@ -206,3 +206,25 @@
   line-height: 81px;
   text-align: center;
 }
+
+.footer__chat {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  z-index: 999;
+
+  width: 63px;
+  height: 63px;
+  border-radius: 100%;
+
+  background: linear-gradient(0deg, #014686 0%, #2084EB 100%);
+  box-shadow: 0px 1px 2px #186FC787;
+  cursor: pointer;
+  text-align: center;
+}
+
+.footer__chat > i {
+  color: #fff;
+  font-size: 31px;
+  line-height: 68px;
+}
