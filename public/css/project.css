@@ -66,9 +66,13 @@
   line-height: 31px;
 }
 
-.list-item__bottom {
+.list-item__bottom > span {
   padding: 10px;
+  display: inline-block;
   color: #BF953E;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
 }
 
 .list-item__bottom span:first-child {
