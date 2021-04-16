@@ -37,13 +37,14 @@
 }
 
 .news__list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
 }
 
 .news__item {
+  flex-basis: calc(50% - 30px);
+  margin: 0 15px 30px;
   border: 1px solid #EBEBEB;
   background-color: #FFFFFF;
 }
